@@ -32,15 +32,15 @@ START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jp
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/behnchu_tg/'>Joshep</a></blockquote></b>")
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/skyy_lover>Joseph</a>\n» Our Community: <a href=https://t.me/kdramatalkies>Talkies Network</a>\n» Main Channel: <a href=https://t.me/kdramatalkies>Kdrama Talkies</a>\n» Ongoing Channel: <a href=https://t.me/KdramaTalkies/10>Kdrama Talkies Channels</a>\n» Developer: <a href=https://t.me/skyy_lover>Joseph</a></b>")
-ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Yato (@Nkkwksl) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
+ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Yato (@NkkwkslBot) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
 ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/kdramatalkies'>ᴋᴅʀᴀᴍᴀ ᴛᴀʟᴋɪᴇs</a>
-<blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/cutie_tg'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
+<blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/behnchu_tg'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
 ›› ᴏᴡɴᴇʀ: <a href='https://t.me/behnchu_tg'>Jᴏsᴇᴘʜ</a>
 ›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
-›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ProYato @Nkkwksl</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
+›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ProYato @NkkwkslBot</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
 CHANNELS_TXT = """<b>›› ᴍàɪɴ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/kdramatalkies'>ᴋᴅʀᴀᴍᴀ ᴛᴀʟᴋɪᴇs</a>
 <blockquote expandable>›› ᴍᴏᴠɪᴇs: <a href='https://t.me/kdramatalkies'>ᴍᴏᴠɪᴇs ᴢᴏɴᴇ</a>
@@ -48,7 +48,7 @@ CHANNELS_TXT = """<b>›› ᴍàɪɴ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/k
 ›› ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/kdramatalkies'>ᴏɴɢᴏɪɢ ᴄʜᴀɴɴᴇʟs</a>
 ›› ᴏɴɢᴏɪɴɢ ᴜᴘᴅᴀᴛᴇs: <a href='https://t.me/kdramatalkies'>ᴏɴɢᴏɪɴɢ ᴜᴘᴅᴀᴛᴇs</a>
 ›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/kdramatalkies'>ᴀʟʟ ᴅʀᴀᴍᴀ & ᴍᴏᴠɪᴇs</a>
-›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ProYato @Nkkwksl</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
+›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ProYato @NkkwkslBot</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 # Default
